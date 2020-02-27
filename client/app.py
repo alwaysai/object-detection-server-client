@@ -78,9 +78,9 @@ def pack_image(image, image_format):
 
 if __name__ == '__main__':
     # Change this value to IP Address of the server
-    # If not running both the client and server on the same machine
+    # if the client is not running on the same machine
     host = '0.0.0.0'
-    port = 5000
+    port = 6000
     
     # Creates a list of a string paths for images in the images directory
     images = list(

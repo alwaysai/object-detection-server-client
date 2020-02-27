@@ -100,5 +100,7 @@ class InferenceHandler(socketserver.BaseRequestHandler):
 
 
 if __name__ == "__main__":
-    with InferenceServer('', 5000, InferenceHandler) as server:
+    host = ''
+    port = 6000
+    with InferenceServer(host, port, InferenceHandler) as server:
         server.serve_forever()
