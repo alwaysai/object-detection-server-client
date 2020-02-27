@@ -53,7 +53,7 @@ def pack_image(image, image_format):
 if __name__ == '__main__':
   # Change this value to IP Address of the server
   # If not running both the client and server on the same machine
-  host = 'taipi.local'
+  host = '0.0.0.0'
   port = 5000
   
   images = list(map(lambda path: os.path.join('images', path), os.listdir('images')))
