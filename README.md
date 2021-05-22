@@ -1,5 +1,5 @@
 # Object Detection Server/Client
-Server app sets up an alwaysAI model to run on an device where images can be sent and infereneced. The server returns the marked-up image to the client.
+Server app sets up an alwaysAI model to run on an device where images can be sent and inferenced. The server returns the marked-up image to the client.
 
 Client app shows how to communicate with the server.
 
