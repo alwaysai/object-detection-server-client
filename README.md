@@ -1,5 +1,5 @@
 # Object Detection Server/Client
-Server app sets up an alwaysAI model to run on an device where images can be sent and inferenced. The server returns the marked-up image to the client.
+Server app sets up an alwaysAI model to run on a device where images can be sent and inferenced. The server then returns the marked-up image to the client, which is stored in the `inferenced` folder.
 
 Client app shows how to communicate with the server.
 
@@ -11,7 +11,7 @@ Next, create an empty project to be used with this app. When you clone this repo
 ## Usage
 
 ## Setup
-Once you have the alwaysAI tools installed and the new project created, run the following CLI commands at the top level of the repo:
+Once you have the alwaysAI tools installed and the new project created, run the following CLI commands at the top level of the `server` repo:
 
 To set the project, and select the target device run:
 
@@ -31,7 +31,7 @@ To start the app:
 aai app start
 ```
 
-Inside the client side code (Line 56), change the host string to be the IP address of the device running the server. Add images to be inferenced in the images directory. Currently, it is only handling .jpg format.
+Inside the client side code (Line 56), change the host string to be the IP address of the device running the server. Add images to be inferenced in the `images` directory. Currently, it is only handling .jpg format. Then cd into the `client` repo and repeat the steps outlined above to start the client application. You will see the inferenced images appear in the `inferenced` folder.
 
 ## Troubleshoot
 Please post questions and comments on your community discord channel!

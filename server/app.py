@@ -9,7 +9,7 @@ class InferenceServer(socketserver.TCPServer):
 
         self.inferencer = edgeiq.ObjectDetection(
             'alwaysai/ssd_mobilenet_v1_coco_2018_01_28')
-        self.inferencer.load(edgeiq.Engine.DNN_OPENVINO)
+        self.inferencer.load(edgeiq.Engine.DNN)
         print('Model Loaded')
 
         print(f'Serving on {host}:{port}')
