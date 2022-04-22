@@ -35,4 +35,5 @@ Inside the client side code (Line 56), change the host string to be the IP addre
 
 ## Troubleshoot
 Please post questions and comments on your community discord channel!
-https://discord.gg/R2uM36U
+https://discord.gg/alwaysai
+
